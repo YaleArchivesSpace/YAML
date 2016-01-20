@@ -57,7 +57,7 @@ en:
     subjects_tooltip: |
         <p>Used for linking Subjects with the materials described.</p>
     notes_tooltip: |
-        <p>Additional descriptive information about the materials described, usually in the form of text or structured lists.</p>
+        <p>Additional descriptive information about the materials described, usually in the form of text or structured lists. Examples of types of notes include biographical/historical, conditions governing access, and scope and content, among others.</p>
     external_documents_tooltip: |
         <p>Links to information in other description or management systems, such as donor files, processing plans, etc.</p>
     rights_statements_tooltip: |
@@ -235,7 +235,7 @@ en:
         <p>REQUIRED FIELD. An indication of what function (creator, source, or subject) the Agent has in regards to its link to the materials.</p>
     relator: Relator
     relator_tooltip: |
-        <p>An indication of what role the Agent has in regards to its function as indicated in how it is linked (e.g., creator, source, or subject) to the materials. For example, a Agent may be linked as a creator to a record, but with the more specific role of "illustrator".</p>
+        <p>An indication of what role the Agent has in regards to its function as indicated in how it is linked (e.g., creator, source, or subject) to the materials. For example, an Agent may be linked as a creator to a record, but with the more specific role of "illustrator".</p>
         <p>See MARC Code List for Relators.</p>
     ref: Agent
     # ref_tooltip is not displaying
@@ -286,7 +286,7 @@ en:
     timestamp: UTC Timestamp
     timestamp_inline_help: YYYY-MM-DD HH:MM:SS
     timestamp_tooltip: |
-        <p>A specific timestamp, with full date and time information, about when the event occured. By default, the application assumes that the timestamp is in UTC.</p>
+        <p>A specific timestamp, with full date and time information, about when the event occurred. By default, the application assumes that the timestamp is in UTC.</p>
     chronotype_label: Date/Time specifier
     chronotype_label_tooltip: |
         <p>Indicates what type of date is associated with this event.</p>
@@ -370,7 +370,7 @@ en:
         </ul>
     notification: Notification Given?
     notification_tooltip: |
-        <p>A checkbox indicating that notification of the deaccession was given.</p>
+        <p>A check box indicating that notification of the deaccession was given.</p>
     dates: Deaccession Date
     _plural: Deaccessions
     _singular: Deaccession
@@ -474,7 +474,7 @@ en:
     sort_name: Sort Name
     sort_name_tooltip: |
         <p>A version of the name concatenating all the parts of the name provided in a given agent record. Used for display purposes in the application and for some exports.</p>
-        <p>The sort name may be edited by unchecking the "Automatically generate" checkbox and then entering the form of the sort name desired.</p>
+        <p>The sort name may be edited by unchecking the "Automatically generate" check box and then entering the form of the sort name desired.</p>
     authorized: Authorized
     is_display_name: Display Name
     _singular: Name
@@ -597,7 +597,7 @@ en:
     item_singular: Item
     publish: Publish?
     publish_tooltip: |
-        <p>Determines whether this Note to public (patron) interfaces.</p>
+        <p>Determines whether this Note will be published to public (patron) interfaces.</p>
     title: Title
     title_tooltip: |
       <p>An element for recording a specific label, or title, for the subnote.</p>
@@ -923,7 +923,7 @@ en:
     identifier_auto_generate_message: "-- auto-generated upon save --"
     rights_type: Rights Type
     rights_type_tooltip: |
-        <p>The basis for the rights statement being made.Four bases are allowed: intellectual property, license, such as donor agreement, legal statutes such as Fair Use or FERPA, and institutional policy.</p>
+        <p>The basis for the rights statement being made. Four bases are allowed: intellectual property, license, such as donor agreement, legal statutes such as Fair Use or FERPA, and institutional policy.</p>
     rights_type_message: Please select a Rights Type
     active: Active
     active_tooltip: |
@@ -1037,8 +1037,8 @@ en:
     end_tooltip: |
         <p>A normalized date (in the form YYYY, YYYY-MM, or YYYY-MM-DD) representing the second date in a date range.</p>
         <p>See DACS 2.4.7-2.4.16</p>
-        <p>A.D. years are expressed with four digits.</p>
-        <p>B.C. years are expressed as a negative number, e.g., -214 for 214 B.C.</p>
+        <p>CE years are expressed with four digits.</p>
+        <p>BCE years are expressed as a negative number, e.g., -214 for 214 BCE.</p>
     certainty: Certainty
     certainty_tooltip: |
         <p>Not used at Yale.</p>
@@ -1099,7 +1099,7 @@ en:
     id_0_tooltip: |
         <p>REQUIRED FIELD:  The unique identifier for an accession within a
         repository.</p>
-        <p>An accession identifier is comprised of three segments. The first segment is the fiscal year of the accession. This is set automatically based upon the assigned accession date. The second segment is a department code. If your repository has multiple departments, select the appropriate code from the drop-down menu. If your repository has only one department code it will be assigned by default.  The third segment is a four-digit number that is assigned in a sequence for each department and fiscal year. The third segment will be generated automatically upon saving the accession record. .</p>
+        <p>An accession identifier is comprised of three segments. The first segment is the fiscal year of the accession. This is set automatically based upon the assigned accession date. The second segment is a department code. If your repository has multiple departments, select the appropriate code from the drop-down menu. If your repository has only one department code it will be assigned by default.  The third segment is a four-digit number that is assigned in a sequence for each department and fiscal year. The third segment will be generated automatically upon saving the accession record.</p>
         <p>Default values may be used to populate the component parts that are
         the same across all accession numbers.</p>
         <p>See DACS 5.2.5</p>
@@ -1158,7 +1158,7 @@ en:
         <p>A list of terms used by a repository for categorizing its resources into basic types.</p>
     access_restrictions: Access Restrictions?
     access_restrictions_tooltip: |
-        <p>A checkbox for indicating access to the materials is restricted.</p>
+        <p>A check box for indicating access to the materials is restricted.</p>
         <p>See DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.5-4.3.6</p>
     access_restrictions_note: Access Restrictions Note
     access_restrictions_note_tooltip: |
@@ -1305,13 +1305,12 @@ en:
         <p>Expresses a unique ID, within the context of the resource description, for the component part.</p>
         <p>Examples:</p>
         <ul>
-        <li>Series I</li>
-        <li>Subseries 8</li>
+        <li>1</li>
         <li>Accession 2005-M-078</li>
         </ul>
     level: Level of Description
     level_tooltip: |
-        <p>REQUIRED FIELD. Indicates. the hierarchical level of the materials being described.</p>
+        <p>REQUIRED FIELD. Indicates the hierarchical level of the materials being described.</p>
         <p>See DACS Chapter 1</p>
         <p>Values are prescribed by the EAD schema.</p>
     other_level: Other Level
@@ -1475,10 +1474,10 @@ en:
         <p>Indicates the descriptive rules used to guide description of the Resource.</p>
     finding_aid_language: Language of Description
     finding_aid_language_tooltip: |
-        <p>Indicates all the languages present in the finding aid generated from the resource description.</p>
+        <p>Indicates the languages used in writing the description.</p>
     finding_aid_sponsor: Sponsor
     finding_aid_sponsor_tooltip: |
-        <p>Indicates any sponsors that contributed to the description of the finding aid.</p>
+        <p>Indicates any sponsors that contributed to the processing and description of the Resource.</p>
     finding_aid_edition_statement: Edition Statement
     finding_aid_edition_statement_tooltip: |
         <p>Not used at Yale.</p>
