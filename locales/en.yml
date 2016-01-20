@@ -8,7 +8,7 @@ en:
     "true": "True"
     "false": "False"
   
-  user_defined:
+  user_defined: &user_defined_attributes
     boolean_1: "Authorization Received (accessions only)"
     boolean_2: "Record Reviewed (accessions only)"
     boolean_3: "Boolean 3 (not used)"
@@ -76,6 +76,7 @@ en:
         <p>Used to indicate the presence of specific material formats in the accession.</p>
     payment_summary_tooltip: |
         <p>Records details of payments made for purchased accessions.</p>
+
   digital_object: &digital_object_attributes
     <<: *section_tooltips
     user_defined: 
