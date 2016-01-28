@@ -1155,6 +1155,7 @@ en:
         <p>Use Notes - Conditions Governing Access and/or Conditions Governing Use instead.</p>
     resource_type: Resource Type
     resource_type_tooltip: |
+        <p>Not used at Yale.</p>
         <p>A list of terms used by a repository for categorizing its resources into basic types.</p>
     access_restrictions: Access Restrictions?
     access_restrictions_tooltip: |
