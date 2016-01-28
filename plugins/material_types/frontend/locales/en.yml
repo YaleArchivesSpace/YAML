@@ -5,7 +5,7 @@ en:
       works_of_art: Works of Art
       audiovisual_materials: Audiovisual Materials
       books: Books
-      electronic_documents: Electronic Documents
+      electronic_documents: Computer Files
       games: Games
       microforms: Microforms
       maps: Maps
@@ -25,7 +25,7 @@ en:
       material_type_works_of_art: Works of Art
       material_type_audiovisual_materials: Audiovisual Materials
       material_type_books: Books
-      material_type_electronic_documents: Electronic Documents
+      material_type_electronic_documents: Computer Files
       material_type_games: Games
       material_type_microforms: Microforms
       material_type_maps: Maps
@@ -39,7 +39,7 @@ en:
       material_type_works_of_art: Material Type - Works of Art?
       material_type_audiovisual_materials: Material Type - Audiovisual Materials?
       material_type_books: Material Type - Books?
-      material_type_electronic_documents: Material Type - Electric Documents?
+      material_type_electronic_documents: Material Type - Computer Files?
       material_type_games: Material Type - Games?
       material_type_microforms: Material Type - Microforms?
       material_type_maps: Material Type - Maps?
