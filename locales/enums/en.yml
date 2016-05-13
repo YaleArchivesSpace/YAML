@@ -1412,8 +1412,8 @@ en:
       standing_order: Standing Order
       subscription: Subscription
     user_defined_enum_2:
-      printed_acquisitions: pa
-      manuscript_unit: mssu
+      mssu: Manuscript Unit
+      pa: Printed Acquisitions
     user_defined_enum_3:
       novalue: No value defined
     user_defined_enum_4:
