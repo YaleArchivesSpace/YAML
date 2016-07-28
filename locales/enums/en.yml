@@ -336,6 +336,19 @@ en:
       non-book_formats_(accessions): "Non-book Formats (accessions)"
       serial_titles_(accessions): "Serial Titles (accessions)"
       serial_volumes_(accessions): "Serial Volumes (accessions)"
+      3.5_inch_floppy_disks: '3.5" Floppy Disks'
+      5.25_inch_floppy_disks: '5.25" Floppy Disks'
+      JAZ_disks: JAZ Disks
+      ZIP_disks: ZIP Disks
+      External_Hard_Drives: External Hard Drives
+      Internal_Hard_Drives: internal Hard Drives
+      Flash_Drives: Flash Drives
+      Laptop_Computers: Laptop Computers
+      Desktop_Computers: Desktop Computers
+      CD_Rs: CD-Rs
+      CD_RWs: CD-RWs
+      DVD-Rs: DVD-Rs
+      DVD_RWs: DVD-RWs
     collection_management_processing_priority:
       none: Not specified
       high: High
@@ -397,10 +410,12 @@ en:
       externally_appraised: Externally Appraised
       fixity_check: Fixity Check
       frozen: Frozen
+      image_capture: Image Capture
       ingestion: Ingestion
       message_digest_calculation: Message Digest Calculation
       migration: Migration
       normalization: Normalization
+      pii_scan: Personally Identifiable Information Scan
       processed: Processed
       processing_new: Processing New
       publication: Publication
@@ -408,6 +423,7 @@ en:
       restrictions_reviewed: Restrictions Reviewed
       rights_transferred: Rights Transferred
       tax_form_completed: Tax Form Completed
+      transfer_capture: Transfer Capture
       validation: Validation
       verified: Verified
       virus_check: Virus Check
