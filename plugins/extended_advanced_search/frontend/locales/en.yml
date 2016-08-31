@@ -10,11 +10,11 @@ en:
       accession_provenance: Provenance
       agents: Linked Agent
       collection_management_processors: Processors
-      created_by: Created By
+      created_by: Record Created By
       extent_container_summary: Container Summary
       extent_number: Extent Number
       extent_physical_details: Physical Details
-      last_modified_by: Last Modified By
+      last_modified_by: Record Last Modified By
       user_defined_string_3: Place of Publication
       user_defined_text_1: "Call Number (accessions only)"
       user_defined_text_2: Title Main Entry
