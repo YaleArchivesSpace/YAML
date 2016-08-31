@@ -1410,7 +1410,7 @@ en:
       part: "\"Part\" relationship"
     accession_sibling_relator_type:
       bound_with: "\"Bound With\" relationship"
-      in_lot: In Lot
+      in_lot: "\"In Lot\" Relationship"
     agent_relationship_subordinatesuperior_relator:
       is_subordinate_to: Is Subordinate to Related
       is_superior_of: Is Superior of Related

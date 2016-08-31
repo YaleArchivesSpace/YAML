@@ -1219,6 +1219,7 @@ en:
     sibling_of: Sibling of
     relator_type: Relator Type
     bound_with: "\"Bound with\" Relationship"
+    in_lot: "\"In Lot\" Relationship"
 
   accession_parts_relationship:
     _singular: "\"Part of\" Relationship"
