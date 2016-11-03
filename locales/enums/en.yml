@@ -285,10 +285,18 @@ en:
       validator: Validator
     name_source:
       ingest: Unspecified ingested source
-      local: Local sources
+      local: Local
       naf: NACO Authority File
-      nad: NAD / ARK II Name Authority Database
       ulan: Union List of Artist Names
+      local_arts: "Local (Arts)"
+      local_beinecke: "Local (BRBL)"
+      local_divinity: "Local (Divinity)"
+      local_medical: "Local (Medical)"
+      local_mssa: "Local (MSSA)"
+      local_music: "Local (Music)"
+      local_walpole: "Local (Walpole)"
+      local_ycba_ia: "Local (YCBA-IA)"
+      local_ycba_rbm: "Local (YCBA-RBM)"
     name_rule:
       local: Local rules
       aacr: Anglo-American Cataloging Rules
