@@ -286,7 +286,7 @@ en:
     name_source:
       ingest: Unspecified ingested source
       local: Local
-      naf: NACO Authority File
+      naf: Library of Congress Name Authority File
       ulan: Union List of Artist Names
       local_arts: "Local (Arts)"
       local_beinecke: "Local (BRBL)"
@@ -294,6 +294,7 @@ en:
       local_medical: "Local (Medical)"
       local_mssa: "Local (MSSA)"
       local_music: "Local (Music)"
+      local_music: "Local (Peabody)"
       local_walpole: "Local (Walpole)"
       local_ycba_ia: "Local (YCBA-IA)"
       local_ycba_rbm: "Local (YCBA-RBM)"
@@ -480,6 +481,7 @@ en:
       local_medical: "Local (Medical)"
       local_mssa: "Local (MSSA)"
       local_music: "Local (Music)"
+      local_music: "Local (Peabody)"
       local_walpole: "Local (Walpole)"
       local_ycba_ia: "Local (YCBA-IA)"
       local_ycba_rbm: "Local (YCBA-RBM)"
