@@ -1359,13 +1359,13 @@ en:
       cultural_context: Cultural context
       function: Function
       geographic: Geographic
-      genre_form: "Genre / Form"
+      genre_form: Genre
       occupation: Occupation
       style_period: "Style / Period"
       technique: Technique
-      temporal: Temporal
+      temporal: Chronological
       topical: Topical
-      uniform_title: Uniform Title
+      uniform_title: Preferred Title
     _note_types: &note_type_definitions
       accessrestrict: Conditions Governing Access
       accruals: Accruals
