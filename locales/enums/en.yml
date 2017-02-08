@@ -345,8 +345,8 @@ en:
       non-book_formats_(accessions): "Non-book Formats (accessions)"
       serial_titles_(accessions): "Serial Titles (accessions)"
       serial_volumes_(accessions): "Serial Volumes (accessions)"
-      3.5_floppy_disks: '3.5" Floppy Disks'
-      5.25_floppy_disks: '5.25" Floppy Disks'
+      3.5_floppy_disks: "3.5 Floppy Disks"
+      5.25_floppy_disks: "5.25 Floppy Disks"
       JAZ_disks: JAZ Disks
       ZIP_disks: ZIP Disks
       External_Hard_Drives: External Hard Drives
