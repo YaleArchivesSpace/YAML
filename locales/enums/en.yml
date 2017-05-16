@@ -291,6 +291,7 @@ en:
       local_arts: "Local (Arts)"
       local_beinecke: "Local (BRBL)"
       local_divinity: "Local (Divinity)"
+      local_fortunoff: "Local (Fortunoff)"
       local_medical: "Local (Medical)"
       local_mssa: "Local (MSSA)"
       local_music: "Local (Music)"
@@ -478,6 +479,7 @@ en:
       local_arts: "Local (Arts)"
       local_beinecke: "Local (BRBL)"
       local_divinity: "Local (Divinity)"
+      local_fortunoff: "Local (Fortunoff)"
       local_medical: "Local (Medical)"
       local_mssa: "Local (MSSA)"
       local_music: "Local (Music)"
@@ -509,6 +511,7 @@ en:
       page: Page
       reel: Reel
       volume: Volume
+      item_barcode: Item Barcode
     file_version_use_statement:
       audio-clip: Audio-Clip
       audio-master: Audio-Master
