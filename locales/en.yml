@@ -65,7 +65,7 @@ en:
     instances_tooltip: |
         <p>Links description to information about physical or digital instantiations of the material.</p>
     deaccessions_tooltip: |
-        <p>Records information about materials that have been separated and discarded, returned to a donor, or transferred to another institution.</p>
+        <p>Records information about materials that have been separated and discarded, returned to a donor, tossed into a black hole, or transferred to another institution.</p>
     collection_management_tooltip: |
         <p>Additional, internal-only information about how the materials described will be or have been processed.</p>
     classification_tooltip: |
