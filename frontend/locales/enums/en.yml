@@ -286,7 +286,7 @@ en:
     name_source:
       ingest: Unspecified ingested source
       local: Local
-      lcnaf: Library of Congress Name Authority File
+      naf: Library of Congress Name Authority File
       ulan: Union List of Artist Names
       local_arts: "Local (Arts)"
       local_beinecke: "Local (BRBL)"
