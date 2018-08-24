@@ -1962,6 +1962,7 @@ en:
   enumerations:
     payment_fund_code:
       "A-CCOM": "A-CCOM (SML)"
+      "ACQMLK": "ACQMK - Acquisition Meserve-Kundhart Fund (BRBL)"
       "AFRDON": "AFRDON - Gaylord Donnelley Fund (SML)"
       "AFRGEN": "AFRGEN - African General Fund (SML)"
       "AFRINV": "AFRINV - African General Fund (SML)"
