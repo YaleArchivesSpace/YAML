@@ -423,15 +423,17 @@ en:
       medium: Medium
       low: Low
     collection_management_processing_status:
-      none: Not specified
+      none: "Not specified"
       new: New
-      in_progress: In Progress
+      in_progress: "In Progress"
       completed: Completed
       processed_further_work_merited: "Processed: Further Work Merited"
+      processed_further_work_possible: "Processed: Further Work Possible"
       processed_further_work_unlikely: "Processed: Further Work Unlikely"
-      pending_cataloging:
-      pending_processing:
-      ready_for_review: Ready for Review
+      pending_cataloging: "Pending Cataloging"
+      pending_processing: "Pending Processing"
+      ready_for_review: "Ready for Review"
+      unprocessed: Unprocessed
     date_era:
       ce: CE
       bce: BCE
