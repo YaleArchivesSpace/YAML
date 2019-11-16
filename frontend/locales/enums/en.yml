@@ -1556,7 +1556,6 @@ en:
       ColdStorageBrbl: 5 - Other
       UseSurrogate: 6 - Use Surrogate
       NoRequest: 7 - No Request
-
   enumeration_names:
     accession_acquisition_type: Accession Acquisition Type
     accession_parts_relator: Accession Parts Relator

@@ -3,11 +3,9 @@ en:
     suppressed: Suppressed
     deleted: Deleted
     auto_generated: System generates when saved
-
   boolean:
     "true": "True"
     "false": "False"
-  
   user_defined: &user_defined_attributes
     boolean_1: "Authorization Received (accessions only)"
     boolean_2: "Record Reviewed (accessions only)"
@@ -39,12 +37,10 @@ en:
     enum_4: "Controlled Value 4 (not used)"
     _singular: User Defined
     _plural: User Defined
-
   content_items:
     content: Content
     content_tooltip: |
         <p>The content of the note.</p>
-
   section_tooltips: &section_tooltips
     dates_tooltip: |
         <p>Identifies and records the date(s) that pertain to the creation, assembly, accumulation, and/or maintenance and use of the materials being described.</p>
@@ -76,7 +72,6 @@ en:
         <p>Used to indicate the presence of specific material formats in the accession.</p>
     payment_summary_tooltip: |
         <p>Records details of payments made for purchased accessions.</p>
-
   digital_object: &digital_object_attributes
     <<: *section_tooltips
     user_defined: 
@@ -116,7 +111,6 @@ en:
         <p>Links a digital object or digital object component to an associated content file, addressable by URI.</p>
     _singular: Digital Object
     _plural: Digital Objects
-
   digital_object_component:
     <<: *digital_object_attributes
     label: Label
@@ -135,7 +129,6 @@ en:
     dates: Dates
     _singular: Digital Object Component
     _plural: Digital Object Components
-
   location: &location_attributes
     title: Title
     temporary_question: Temporary?
@@ -188,7 +181,6 @@ en:
     holdings: Holdings
     _singular: Location
     _plural: Locations
-
   location_batch:
     <<: *location_attributes
     label: Label
@@ -201,7 +193,6 @@ en:
     end: Range End
     _singular: Batch Locations
     _plural: Batch Locations
-
   container_location:
     status: Status
     status_tooltip: |
@@ -219,7 +210,6 @@ en:
     ref: Location
     _singular: Location
     _plural: Locations
-
   linked_record:
     role: Role
     role_tooltip: |
@@ -228,7 +218,6 @@ en:
     ref_plural: Records
     _singular: Record Link
     _plural: Record Links
-
   linked_agent: &linked_agent_attributes
     role: Role
     role_tooltip: |
@@ -250,25 +239,18 @@ en:
         <ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>
     _singular: Agent Link
     _plural: Agent Links
-
   accession_linked_agent:
     <<: *linked_agent_attributes
-
   event_linked_agent:
     <<: *linked_agent_attributes
-
   resource_linked_agent:
     <<: *linked_agent_attributes
-
   archival_object_linked_agent:
     <<: *linked_agent_attributes
-
   digital_object_linked_agent:
     <<: *linked_agent_attributes
-
   digital_object_component_linked_agent:
     <<: *linked_agent_attributes
-
   event: &event
     <<: *section_tooltips
     event_type: Type
@@ -336,10 +318,8 @@ en:
       virus_check: Virus Check
     _singular: Event
     _plural: Events
-
   linked_event:
     <<: *event
-
   deaccession:
     <<: *section_tooltips
     scope: Portion
@@ -374,7 +354,6 @@ en:
     dates: Deaccession Date
     _plural: Deaccessions
     _singular: Deaccession
-
   agent_name: &agent_name_attributes
     authority_id: Authority ID
     authority_id_tooltip: |
@@ -479,16 +458,13 @@ en:
     is_display_name: Display Name
     _singular: Name
     _plural: Names
-
   name_person:
     <<: *agent_name_attributes
-
   name_family:
     <<: *agent_name_attributes
     family_name: Family Name
     family_name_tooltip: |
         <p>The last name, or surname, for a family, typically supplemented with the term "family".</p>
-
   name_corporate_entity:
     <<: *agent_name_attributes
     subordinate_name_1: Subordinate Name 1
@@ -501,7 +477,6 @@ en:
     subordinate_name_2: Subordinate Name 2
     subordinate_name_2_tooltip: |
         <p>A hierarchical unit with the corporate entity named in the Primary Name field and lower than the unit named in the Subordinate Name 1 field.</p>
-
   name_software:
     <<: *agent_name_attributes
     software_name: Software Name
@@ -528,11 +503,9 @@ en:
         <li>Adobe <em>(for Adobe Photoshop CS3)</em></li>
         <li>Library of Congress <em>(for Library of Congress Bagger 2.1.2)</em></li>
         </ul>
-
   name:
     _singular: Name Form
     _plural: Name Forms
-
   agent_contact: &agent_contact
     name: Contact Name
     name_tooltip: |
@@ -573,7 +546,6 @@ en:
         <p>Additional notes or contact information for the contact person.</p>
     _singular: Contact
     _plural: Contact Details
-
   telephone: &telephone
     _plural: Telephone Numbers 
     number_type: Number Type 
@@ -583,7 +555,6 @@ en:
     ext: Telephone Extension
     ext_tooltip: |
         <p>Telephone number extension for the contact person.</p>
-
   note_attributes: &note_attributes
     label: Label
     label_tooltip: |
@@ -604,40 +575,34 @@ en:
     type: Type
     type_tooltip: |
       <p>The type of note for the content.  Note types are used for guiding export of note contents to certain elements in specific data formats.</p>
-
   related_agent:
     relationship_type: Relationship Type
     _singular: Related Agent
     _plural: Related Agents
-
   agent_relationship_parentchild:
     relator: Relationship Type
     description: Description
     ref: Related Agent
     date: Date
     _singular: Parent/Child Relationship
-
   agent_relationship_earlierlater:
     relator: Relationship Type
     description: Description
     ref: Related Agent
     date: Date
     _singular: Earlier/Later Relationship
-
   agent_relationship_subordinatesuperior:
     relator: Relationship Type
     description: Description
     ref: Related Agent
     date: Date
     _singular: Subordinate/Superior Relationship
-
   agent_relationship_associative:
     relator: Relationship Type
     description: Description
     date: Date
     ref: Related Agent
     _singular: Associative Relationship
-
   note:
     item: Item
     content_item: Content Item
@@ -657,15 +622,12 @@ en:
     note_type: Note Type
     _singular: Note
     _plural: Notes
-
   note_text:
     <<: *note_attributes
     option: Text
-
   note_index:
     <<: *note_attributes
     option: Index
-
   note_index_item:
     value: Value
     value_tooltip: The content of each entry in the bibliography. At least one is required for any index note.
@@ -675,29 +637,23 @@ en:
     reference_tooltip: The target for the index item.
     reference_text: Reference Text
     reference_text_tooltip: A description for the reference, if warranted.
-
   note_singlepart:
     <<: *note_attributes
-
   note_multipart:
     <<: *note_attributes
     subnotes: Sub Notes
     sub_notes: Sub Notes
     sub_notes_singular: Sub Note
-
   note_digital_object:
     <<: *note_attributes
-
   note_bibliography:
     <<: *note_attributes
     option: Bibliography
-
   note_chronology:
     <<: *note_attributes
     option: Chronology
     title: Title
     items: Events
-
   chronology_item:
     event_date: Event Date
     event_date_tooltip: |
@@ -706,11 +662,9 @@ en:
     events_tooltip: |
         <p>A description of an event corresponding to the chronology date item.</p>
     events_singular: Event
-
   note_definedlist:
     <<: *note_attributes
     option: Defined List
-
   definedlist_item:
     label: Label
     label_tooltip: |
@@ -718,26 +672,21 @@ en:
     value: Value
     value_tooltip: |
         A defined list item in a defined list.
-
   note_orderedlist:
     <<: *note_attributes
     option: Ordered List
     enumeration: Enumeration
     enumeration_tooltip: |
         <p>An attribute for indicating the type of numeration to be applied to the note items</p>
-
   note_bioghist:
     <<: *note_attributes
-
   note_abstract:
     <<: *note_attributes
     option: Abstract
-
   note_citation:
     <<: *note_attributes
     option: Citation
     xlink: XLink
-
   note_citation_xlink:
     actuate: Actuate
     arcrole: Arc Role
@@ -746,12 +695,10 @@ en:
     show: Show
     title: Title
     type: Type
-
   note_outline:
     <<: *note_attributes
     option: Outline
     levels: Levels
-
   instance: &instance_attributes
     instance_type: Type
     instance_type_tooltip: |
@@ -759,13 +706,10 @@ en:
     digital_object: Digital Object
     _plural: Instances
     _singular: Instance
-
   instance_container:
     <<: *instance_attributes
-
   instance_digital_object:
     <<: *instance_attributes
-
   file_version:
     _plural: File Versions
     _singular: File Version
@@ -820,7 +764,6 @@ en:
         <li>SHA-256</li>
         </ul>
     identifier: Identifier
-
   extent: &extent_attributes
     portion: Portion
     portion_tooltip: |
@@ -858,7 +801,6 @@ en:
         </ul>
     _plural: Extents
     _singular: Extent
-
   container: &container_attributes
     type_1: Container 1 Type
     type_1_tooltip: &container_type_tooltip |
@@ -889,7 +831,6 @@ en:
     container_locations: Locations
     _plural: Containers
     _singular: Container
-
   external_document: &external_document_attributes
     title: Title
     title_tooltip: |
@@ -908,14 +849,11 @@ en:
     document_link: Document Link
     _plural: External Documents
     _singular: External Document
-
   external_id:
     _plural: External IDs
     _singular: External ID
     source: Source
     external_id: External ID
-
-
   rights_statement: &rights_statement_attributes
     identifier: Identifier
     identifier_tooltip: |
@@ -988,19 +926,14 @@ en:
         </ul>
     _plural: Rights Statements
     _singular: Rights Statement
-
   rights_type_intellectual_property:
     <<: *rights_statement_attributes
-
   rights_type_license:
     <<: *rights_statement_attributes
-
   rights_type_statute:
     <<: *rights_statement_attributes
-
   rights_type_institutional_policy:
     <<: *rights_statement_attributes
-
   date: &date_attributes
     label: Label
     label_tooltip: |
@@ -1054,34 +987,24 @@ en:
         <p>See EAD attribute "calendar" and DACS 2.4.5.</p>
     _plural: Dates
     _singular: Date
-
   date_type_single:
     <<: *date_attributes
-
   date_type_bulk:
     <<: *date_attributes
-
   date_type_inclusive:
     <<: *date_attributes
-
   date_type_range:
     <<: *date_attributes
-
   date_label:
     <<: *date_attributes
-
   existence_date:
     <<: *date_attributes
-
   usage_date:
     <<: *date_attributes
-
   archival_record_date:
     <<: *date_attributes
-
   date_fields:
     <<: *date_attributes
-
   accession:
     <<: *section_tooltips
     user_defined: 
@@ -1208,11 +1131,9 @@ en:
     relator_type: Relator Type
     _singular: Accession
     _plural: Accessions
-
   interrelated_accession:
     _plural: Related Accessions
     relationship_type: Relationship type
-
   accession_sibling_relationship:
     _singular: Sibling Relationship
     relator: This Accession
@@ -1220,7 +1141,6 @@ en:
     relator_type: Relator Type
     bound_with: "\"Bound with\" Relationship"
     in_lot: "\"In Lot\" Relationship"
-
   accession_parts_relationship:
     _singular: "\"Part of\" Relationship"
     part: "\"Part of\" Relationship"
@@ -1228,8 +1148,6 @@ en:
     forms_part_of: Forms Part of
     has_part: Has Part
     relator_type: Relator Type
-
-
   agent: &agent_attributes
     type: Agent Type
     type_tooltip: |
@@ -1258,27 +1176,22 @@ en:
     publish: Publish
     _singular: Agent
     _plural: Agents
-
   agent_person:
     <<: *agent_attributes
     _singular: Person
     _plural: People
-
   agent_family:
     <<: *agent_attributes
     _singular: Family
     _plural: Families
-
   agent_software:
     <<: *agent_attributes
     _singular: Software
     _plural: Software
-
   agent_corporate_entity:
     <<: *agent_attributes
     _singular: Corporate Entity
     _plural: Corporate Entities
-
   archival_object: &archival_object_attributes
     title: Title
     title_tooltip: |
@@ -1343,7 +1256,6 @@ en:
     has_unpublished_ancestor: Has Unpublished Ancestor?
     _singular: Archival Object
     _plural: Archival Objects
-
   group:
     group_code: Group code
     group_code_tooltip: |
@@ -1391,7 +1303,6 @@ en:
       manage_container_profile_record: create/update/delete container profile records
     _singular: Group
     _plural: Groups
-
   resource:
     <<: *archival_object_attributes
     <<: *section_tooltips
@@ -1496,11 +1407,9 @@ en:
         <p>For recording any additional information about the finding aid (not the described Resource) not covered by the other finding aid data elements.</p>
     _singular: Resource
     _plural: Resources
-
   related_accession:
     _singular: Related Accession
     _plural: Related Accessions
-
   revision_statement:
     _singlular: Revision Statement
     _plural: Revision Statements
@@ -1510,11 +1419,9 @@ en:
     description: Revision Description
     description_tooltip: |
         <p>A description of the last revision(s) done to the finding aid.</p>
-
   related_resource:
     _singular: Related Resource
     _plural: Related Resources
-
   repository:
     repo_code: Repository Short Name
     repo_code_tooltip: |
@@ -1576,7 +1483,6 @@ en:
         <p>A URL or other file location identifier referencing a file that contains a branding device to be used in the repository's online finding aids. A typical branding device is a university seal or logo.</p>
     _singular: Repository
     _plural: Repositories
-
   term: &term_attributes
     # tooltips not displaying
     term: Term
@@ -1587,7 +1493,6 @@ en:
         <p>REQUIRED FIELD. An indicator for expressing the type or category of a subject term.</p>
     _singular: Term
     _plural: Terms
-
   subject:
     authority_id: Authority ID
     authority_id_tooltip: |
@@ -1616,7 +1521,6 @@ en:
     heading: Subject Heading
     _singular: Subject
     _plural: Subjects
-
   user:
     username: Username
     username_tooltip: |
@@ -1656,7 +1560,6 @@ en:
         <p>Used to indicate whether the user should have full administrative privileges to the application.</p>
     _singular: User
     _plural: Users
-
   collection_management: &collection_management_attributes
     cataloged_note: Cataloged Note
     cataloged_note_tooltip: |
@@ -1716,8 +1619,6 @@ en:
     parent: Parent
     _singular: Collection Management
     _plural: Collection Management
-
-
   enumeration:
     # tooltips not displaying
     name: Name
@@ -1734,7 +1635,6 @@ en:
     merge_into: Merge Into
     _singular: Controlled Value List
     _plural: Controlled Value lists
-
   classification:
     _singular: Classification
     _plural: Classifications
@@ -1743,7 +1643,6 @@ en:
     description: Description
     creator: Creator
     id_separator: /
-
   classification_term:
     _singular: Classification Term
     _plural: Classification Terms
@@ -1751,7 +1650,6 @@ en:
     title: Title
     description: Description
     creator: Creator
-
   preference: &preference_attributes
     defaults: Defaults
     global: Global Preference Defaults
@@ -1764,7 +1662,6 @@ en:
     user_repo_message: Edit these values to set your user preferences for this repository. These values cannot be overridden.
     _singular: Preferences
     _plural: Preferences
-
   defaults: &defaults_attributes
     general_section: General Settings
     show_suppressed: Show Suppressed?
@@ -1811,7 +1708,6 @@ en:
     no_value: '[no value]'
     _singular: Defaults
     _plural: Defaults
-
   reports:
     CreatedAccessionsReport: Created Accessions
     UnprocessedAccessionsReport: Unprocessed Accessions
@@ -1825,7 +1721,6 @@ en:
       xlsx: XLSX (Excel)
       pdf: PDF
       html: HTML
-
   validation_errors:
     agent_must_be_unique: Agent records cannot be identical
     missing_required_property: Property is required but was missing
@@ -1835,7 +1730,6 @@ en:
     is_required_unless_a_begin_or_end_date_is_given: is required unless a begin or end date is given
     is_required_unless_an_expression_or_an_end_date_is_given: is required unless an expression or an end date is given
     is_required_unless_an_expression_or_a_begin_date_is_given: is required unless an expression or a begin date is given
-
     did_not_match_regular_expression: Did not match regular expression %{regexp}
     too_few_characters: Must be at least %{min_length} characters
     too_many_characters: Must be %{max_length} characters or fewer
@@ -1870,7 +1764,6 @@ en:
     must_be_a_number_with_no_more_than_2_decimal_places: Must be a number with no more than 2 decimal places
     length_must_be_within_the_range_set_in_configuration: Length must be within the range set in configuration
     is_required_if_status_is_previous: is required if 'Status' is 'Previous'
-
   job:
     _singular: Background Job
     _plural: Background Jobs
@@ -1886,7 +1779,6 @@ en:
     time_finished: Time Completed
     owner: Owner
     show_description: Show Description
-
   import_job:
     _singular: Import Job
     filenames: Import Files
@@ -1898,7 +1790,6 @@ en:
     import_type_marcxml: MarcXML (Resource)
     import_type_marcxml_accession: MarcXML (Accession)
     import_type_marcxml_subjects_and_agents: MarcXML (Subjects and Agents Only)
-
   find_and_replace_job:
     _singular: Find and Replace Job
     find: String to find
@@ -1906,7 +1797,6 @@ en:
     jsonmodel_type: Record or subrecord type
     record_type: Record or subrecord type
     property: Target property
-
   advanced_search:
     type:
       text: Text
@@ -1932,10 +1822,8 @@ en:
     frontend_log: Frontend Log
     backend_info: Backend System Information
     backend_log: Backend Log
-
   resource_component:
     _singular: Resource Component
-en:
   advanced_search:
     text:
       accession_condition_description: Condition Description
@@ -1983,7 +1871,6 @@ en:
       extent_extent_type: Extent Type
       linked_agent_role: Role
       user_defined_enum_2: BRBL Owner
-en:
   plugins:
     material_type: &material_type_attributes
       label: Material Types
@@ -2032,7 +1919,6 @@ en:
       material_type_photographs: Material Type - Photographs?
       material_type_realia: Material Type - Realia?
       material_type_serials: Material Type - Serials?
-en:
   plugins:
     payments_module:
       _plural: Payment Summary
@@ -2060,11 +1946,9 @@ en:
     invoice_number: Invoice Number
     note: Note
     authorizer: Authorizer
-
   enumeration_names:
     currency_iso_4217: Currency Codes
     payment_fund_code: Payment Fund Code
-
   advanced_search:
     text:
       payment_authorizers: Payment Authorizer
@@ -2075,7 +1959,6 @@ en:
       payment_fund_code: Fund Code
     boolean:
       payment_in_lot: In Lot?
-
   enumerations:
     payment_fund_code:
       "A-CCOM": "A-CCOM (SML)"
@@ -2520,11 +2403,9 @@ en:
       ZAR: ZAR - Rand
       ZMW: ZMW - Zambian Kwacha
       ZWL: ZWL - Zimbabwe Dollar
-en:
   user_defined:
     string_2: Voyager Bib ID
     string_3: Place of publication
     string_4: ISBN or ISSN
     text_3: Monographic Series
     text_5: Bibliographic Citation
-    
