@@ -61,7 +61,7 @@ en:
     instances_tooltip: |
         <p>Links description to information about physical or digital instantiations of the material.</p>
     deaccessions_tooltip: |
-        <p>Records information about materials that have been separated and discarded, returned to a donor, or transferred to another institution.</p>
+        <p>Records information about materials that have been separated and discarded, returned to a donor, tossed into a black hole, or transferred to another institution.</p>
     collection_management_tooltip: |
         <p>Additional, internal-only information about how the materials described will be or have been processed.</p>
     classification_tooltip: |
@@ -1979,7 +1979,7 @@ en:
       "Babb": "Babb - James Tinkham Babb, '24, Fund"
       "BAKER": "BAKER - Alfred Z. Baker, Jr. Fund (BRBL)"
       "BARNDA": "BARNDA - Danford N. Barney, Jr. Fund (BRBL)"
-      "BARNDN": "BARNDN - D. Newton Barney Fund (BRBL)"
+      "BARNDN": "BARNDN - D. Newton Barney Fund (SML)"
       "BEIEND": "BEIEND - E. J. and F. W. Beinecke Rare Book Endowment Fund (BRBL)"
       "BEIEXP": "BEIEXP - Beinecke Expendable Fund (BRBL)"
       "BEIGER": "BEIGER - Beinecke German Literature Collection Fund (BRBL)"
