@@ -1533,7 +1533,13 @@ en:
       mssu: Manuscript Unit
       pa: Printed Acquisitions
     user_defined_enum_3:
-      novalue: No value defined
+      barton: "Barton, Melissa"
+      clemens: "Clemens, Raymond"
+      james: "James, Kathryn"
+      kuhl: "Kuhl, Nancy"
+      miles: "Miles, George"
+      repp: "Repp, Kevin"
+      young: "Young, Timothy"
     user_defined_enum_4:
       novalue: No value defined
     job_type:
@@ -1619,7 +1625,7 @@ en:
     subject_term_type: Subject Term Type
     user_defined_enum_1: "Order Type (accession)"
     user_defined_enum_2: "BRBL Owner (accession)"
-    user_defined_enum_3: User Defined Enum 3
+    user_defined_enum_3: "Acquired By (accession)"
     user_defined_enum_4: User Defined Enum 4
     job_type: Job Type
     dimension_units: Dimension Units
