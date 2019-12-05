@@ -1530,8 +1530,8 @@ en:
       standing_order: Standing Order
       subscription: Subscription
     user_defined_enum_2:
-      mssu: Manuscript Unit
-      pa: Printed Acquisitions
+      pending_cataloging: Pending Cataloging
+      pending_processing: Pending Processing
     user_defined_enum_3:
       barton: "Barton, Melissa"
       clemens: "Clemens, Raymond"
