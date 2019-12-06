@@ -1623,7 +1623,7 @@ en:
     subject_source: Subject Source
     subject_term_type: Subject Term Type
     user_defined_enum_1: "Order Type (accession)"
-    user_defined_enum_2: "BRBL Owner (accession)"
+    user_defined_enum_2: "Acquisition Capacity Budget (accession)"
     user_defined_enum_3: "Acquired By (accession)"
     user_defined_enum_4: User Defined Enum 4
     job_type: Job Type
