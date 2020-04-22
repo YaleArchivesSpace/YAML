@@ -34,8 +34,8 @@ en:
     date_3: "Date 3 (not used)"
     date_3_inline_help: e.g. YYYY-MM-DD
     enum_1: "Order Type (accessions only)"
-    enum_2: "BRBL Owner (accessions only)"
-    enum_3: "Controlled Value 3 (not used)"
+    enum_2: "Acquisition Capacity Budget (accessions only)"
+    enum_3: "Acquired By (accessions only)"
     enum_4: "Controlled Value 4 (not used)"
     _singular: User Defined
     _plural: User Defined

@@ -32,8 +32,8 @@ en:
     date_3: "Date 3 (not used)"
     date_3_inline_help: e.g. YYYY-MM-DD
     enum_1: "Order Type (accessions only)"
-    enum_2: "BRBL Owner (accessions only)"
-    enum_3: "Controlled Value 3 (not used)"
+    enum_2: "Acquisition Capacity Budget (accessions only)"
+    enum_3: "Acquired By (accessions only)"
     enum_4: "Controlled Value 4 (not used)"
     _singular: User Defined
     _plural: User Defined
@@ -61,7 +61,7 @@ en:
     instances_tooltip: |
         <p>Links description to information about physical or digital instantiations of the material.</p>
     deaccessions_tooltip: |
-        <p>Records information about materials that have been separated and discarded, returned to a donor, or transferred to another institution.</p>
+        <p>Records information about materials that have been separated and discarded, returned to a donor, tossed into a black hole, or transferred to another institution.</p>
     collection_management_tooltip: |
         <p>Additional, internal-only information about how the materials described will be or have been processed.</p>
     classification_tooltip: |
@@ -1870,7 +1870,7 @@ en:
       event_outcome: Event Outcome
       extent_extent_type: Extent Type
       linked_agent_role: Role
-      user_defined_enum_2: BRBL Owner
+      user_defined_enum_2: Acquisition Capacity Budget
   plugins:
     material_type: &material_type_attributes
       label: Material Types
@@ -1962,6 +1962,7 @@ en:
   enumerations:
     payment_fund_code:
       "A-CCOM": "A-CCOM (SML)"
+      "ACQMK": "ACQMK - Acquisition Meserve-Kundhart Fund (BRBL)"
       "AFRDON": "AFRDON - Gaylord Donnelley Fund (SML)"
       "AFRGEN": "AFRGEN - African General Fund (SML)"
       "AFRINV": "AFRINV - African General Fund (SML)"
@@ -1978,7 +1979,7 @@ en:
       "Babb": "Babb - James Tinkham Babb, '24, Fund"
       "BAKER": "BAKER - Alfred Z. Baker, Jr. Fund (BRBL)"
       "BARNDA": "BARNDA - Danford N. Barney, Jr. Fund (BRBL)"
-      "BARNDN": "BARNDN - D. Newton Barney Fund (BRBL)"
+      "BARNDN": "BARNDN - D. Newton Barney Fund (SML)"
       "BEIEND": "BEIEND - E. J. and F. W. Beinecke Rare Book Endowment Fund (BRBL)"
       "BEIEXP": "BEIEXP - Beinecke Expendable Fund (BRBL)"
       "BEIGER": "BEIGER - Beinecke German Literature Collection Fund (BRBL)"
@@ -1997,6 +1998,7 @@ en:
       "BFIELD": "BFIELD - Bernice Field Fund (SML)"
       "BKPOOL": "BKPOOL - G. A. funds (SML)"
       "BLOCK": "BLOCK - Ruth & Alec Block Fund (SML)"
+      "BOCKST": "BOCKST - John Bockstoce ’66 Library Fund (BRBL)"
       "BOLLIN": "BOLLIN - Bollingen Fund (BRBL)"
       "BROCH": "BROCH - H. F. Broch de Rothermann Memorial Fund (BRBL)"
       "BROOKR": "BROOKR - T. Kimball Brooker Italian Renaissance Fund (BRBL)"
