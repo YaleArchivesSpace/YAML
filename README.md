@@ -1,5 +1,7 @@
 # YAML
 
+**ARCHIVED REPO, NO LONGER IN USE**
+
 Local yale YAML files for ASpace config.
 
 Update `frontend` or `plugins` locales then generate the plugin:
